@@ -1,0 +1,345 @@
+/* extra small device start */
+@media (min-width: 320px) and (max-width: 575px){
+/* menu bar css start */
+nav .fa{
+    color: #fff;
+    padding: 10px;
+}
+.navbar ul{
+    padding-top: 15px;
+    text-align: center;
+}
+.navbar ul li a::after{
+    display: none;
+}
+/* menu bar css end */
+/* banner part start */
+#banner .icon.right{
+    display: none !important;
+}
+#banner .icon.left{
+    display: none !important;
+}
+/* banner part end */
+/* about part start */
+.heading p{
+    width: auto;
+    margin: 0 auto !important;
+    padding: 15px;
+}
+.my-5{
+    margin-top: 5rem !important;
+}
+#about .image{
+    height: 300px;
+    width: 300px;
+}
+#about .image .img{
+    height: 250px;
+    width: 250px; 
+}
+#about .item.lt-item::before{
+    display: none;
+}
+.rt-item::before{
+    display: none;
+    margin-top: 5px;
+}
+/* about part end */
+/* service part start */
+.service-slider{
+    flex-direction: column;
+}
+.service-slider .right{
+    width: 100%;
+}
+.service-slider .right p{
+    width: auto;
+    text-align: justify;
+}
+.service-slider .middle{
+    width: 100%;
+    margin: 20px auto;
+}
+.service-slider .left{
+    width: 100%;
+    justify-content: center;
+}
+.service-main-slider::before {
+    display: none;
+}
+.service-main-slider .icon-right{
+    display: none;
+}
+.service-main-slider .icon-left{
+    display: none;
+}
+/* service part end */
+/* feedback part start */
+.feed-details-main::after{
+    display: none;
+}
+/* feedback part end */
+/* pricing part start */
+#pricing .item{
+    margin-bottom: 15px;
+}
+/* pricing part end */
+}
+/* extra small device end */
+/* small device start */
+@media (min-width: 576px) and (max-width: 767px){
+    /* menu bar css start */
+    nav .fa{
+        color: #fff;
+        padding: 10px;
+    }
+    .navbar ul{
+        padding-top: 15px;
+        text-align: center;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    /* menu bar css end */
+    /* banner part start */
+    #banner .icon.right{
+        display: none !important;
+    }
+    #banner .icon.left{
+        display: none !important;
+    }
+    /* banner part end */
+    /* about part start */
+    .heading p{
+        width: auto;
+        margin: 0 auto !important;
+        padding: 15px;
+    }
+    .my-5{
+        margin-top: 5rem !important;
+    }
+    #about .image{
+        height: 300px;
+        width: 300px;
+    }
+    #about .image .img{
+        height: 250px;
+        width: 250px; 
+    }
+    #about .item.lt-item::before{
+        display: none;
+    }
+    .rt-item::before{
+        display: none;
+        margin-top: 5px;
+    }
+    /* about part end */
+    /* service part start */
+    .service-slider{
+        flex-direction: column;
+    }
+    .service-slider .right{
+        width: 100%;
+    }
+    .service-slider .right p{
+        width: auto;
+        text-align: justify;
+    }
+    .service-slider .middle{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .service-slider .left{
+        width: 100%;
+        justify-content: center;
+    }
+    .service-main-slider::before {
+        display: none;
+    }
+    .service-main-slider .icon-right{
+        display: none !important;
+    }
+    .service-main-slider .icon-left{
+        display: none !important;
+    }
+    /* service part end */
+    /* feedback part start */
+    .feed-details-main::after{
+        display: none;
+    }
+    /* feedback part end */
+    /* pricing part start */
+    #pricing .item{
+        margin-bottom: 15px;
+    }
+    /* pricing part end */
+    }
+    /* small device end */ 
+    /* medium device start */
+@media (min-width: 768px) and (max-width: 991px){
+    /* menu bar css start */
+    nav .fa{
+        color: #fff;
+        padding: 10px;
+    }
+    .navbar ul{
+        padding-top: 15px;
+        text-align: center;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    /* menu bar css end */
+    /* banner part start */
+    #banner .icon.right{
+        display: none !important;
+    }
+    #banner .icon.left{
+        display: none !important;
+    }
+    /* banner part end */
+    /* about part start */
+    .heading p{
+        width: auto;
+        margin: 0 auto !important;
+        padding: 15px;
+    }
+    .my-5{
+        margin-top: 5rem !important;
+    }
+    #about .image{
+        height: 300px;
+        width: 300px;
+    }
+    #about .image .img{
+        height: 250px;
+        width: 250px; 
+    }
+    #about .item.lt-item::before{
+        display: none;
+    }
+    .rt-item::before{
+        display: none;
+        margin-top: 5px;
+    }
+    #about .item.rt-item::before{
+        display: none;
+    }
+    /* about part end */
+    /* service part start */
+    .service-slider{
+        flex-direction: column;
+    }
+    .service-slider .right{
+        width: 100%;
+    }
+    .service-slider .right p{
+        width: auto;
+        text-align: justify;
+    }
+    .service-slider .middle{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .service-slider .left{
+        width: 100%;
+        justify-content: center;
+    }
+    .service-main-slider::before {
+        display: none;
+    }
+    .service-main-slider .icon-right{
+        display: none;
+    }
+    .service-main-slider .icon-left{
+        display: none !important;
+    }
+    /* service part end */
+    /* feedback part start */
+    .feed-details-main::after{
+        display: none;
+    }
+    /* feedback part end */
+    /* pricing part start */
+    #pricing .item{
+        margin-bottom: 15px;
+    }
+    /* pricing part end */
+    }
+    /* medium device end */ 
+     /* large device start */
+@media (min-width: 992px) and (max-width: 1199px){
+    /* menu bar css start */
+    nav .fa{
+        color: #fff;
+        padding: 10px;
+    }
+    .navbar ul{
+        padding-top: 15px;
+        text-align: center;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    /* menu bar css end */
+    /* banner part start */
+    #banner .icon.right{
+        display: none !important;
+    }
+    #banner .icon.left{
+        display: none !important;
+    }
+    /* banner part end */
+    /* about part start */
+    .my-5{
+        margin-top: 5rem !important;
+    }
+    #about .image{
+        height: 300px;
+        width: 300px;
+    }
+    #about .image .img{
+        height: 250px;
+        width: 250px; 
+    }
+    
+    #about .item::after{
+        bottom: -90px;
+    }
+    /* about part end */
+    /* service part start */
+    .service-slider{
+        flex-direction: column;
+    }
+    .service-slider .right{
+        width: 100%;
+    }
+    .service-slider .right p{
+        width: auto;
+        text-align: justify;
+    }
+    .service-slider .middle{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .service-slider .left{
+        width: 100%;
+        justify-content: center;
+    }
+    .service-main-slider .icon-right{
+        display: none;
+    } 
+    /* service part end */
+    /* feedback part start */
+    .feed-details-main::after{
+        display: none;
+    }
+    /* feedback part end */
+    /* pricing part start */
+    #pricing .item{
+        margin-bottom: 15px;
+    }
+    /* pricing part end */
+    }
+    /* large device end */ 
